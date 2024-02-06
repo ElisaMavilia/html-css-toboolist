@@ -76,6 +76,10 @@ main{
     padding-top: 25px;
 }
 
+section, h2{
+    padding-bottom: 20px;
+}
+
 .bullet-green, .bullet-red{
     
     display: inline-block;    
@@ -95,7 +99,6 @@ main{
 .bullet-red{
     border: 1px solid red;
 }
-
 
 .list{
     list-style: none;
