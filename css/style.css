@@ -93,10 +93,9 @@ main{
     list-style: none;
 }
 
-.badge-blue{
+.badge-list, .badge-blue{
     width: 70px;
     height: 20px;
-    background-color: #46adf2;
     color: white;
     margin-left: 10px;
     margin-top: 15px;
@@ -104,4 +103,12 @@ main{
     border-radius: 5px;
     display: inline-block;
     text-align: center;
+}
+
+.badge-blue{
+    background-color: #46adf2;
+}
+
+.badge-violet{
+    background-color: violet;
 }
