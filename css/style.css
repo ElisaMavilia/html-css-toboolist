@@ -94,7 +94,7 @@ main{
 }
 
 .badge-list, .badge-blue{
-    width: 70px;
+    width: 8orage0px;
     height: 20px;
     color: white;
     margin-left: 10px;
@@ -111,4 +111,8 @@ main{
 
 .badge-violet{
     background-color: violet;
+}
+
+.badge-green{
+    background-color: green;
 }
