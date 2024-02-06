@@ -88,16 +88,18 @@ section, h2{
     border-radius: 50%;
     background-color: white;
     text-align: center;
-    line-height: 100px;
+    line-height: 18px;
     vertical-align: middle;
 }
 
 .bullet-green{
     border: 1px solid green;
+    color: green;
 }
 
 .bullet-red{
     border: 1px solid red;
+    color: red;
 }
 
 .list{
