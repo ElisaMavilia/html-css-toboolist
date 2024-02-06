@@ -78,17 +78,30 @@ main{
 
 .bullet-green{
     
-    padding-left: 40px;
-    width: 40px;
-    height: 40px;
+    display: inline-block;    
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
     background-color: white;
-    border: 1px solid black;
+    border: 1px solid green;
     text-align: center;
     line-height: 100px;
-
+    vertical-align: middle;
 }
 
 .list{
     list-style: none;
+}
+
+.badge-blue{
+    width: 70px;
+    height: 20px;
+    background-color: #46adf2;
+    color: white;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
 }
