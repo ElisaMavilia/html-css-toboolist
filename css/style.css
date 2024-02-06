@@ -28,18 +28,46 @@ img, #header-text{
     font-weight: 900;
 }
 
-
 nav, main{
     width: 80%;
+    max-width: 1200px;
     margin: auto;
     background-color: white;
 }
 
 nav {
     margin-bottom: 3px;
+    margin-top: 25px;
+    border-bottom: 1px solid #f7f8f9;
+    padding: 2px;
 }
 
-.container-nav {
-    border-bottom: 1px solid #f7f8f9;
-    margin-top: 30px;
+.badge, .blue{
+    width: 80px;
+    height: 30px;
+    background-color: #46adf2;
+    color: white;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
+
+.badge-grey{
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    color: lightgrey;
+    border: 1px solid #c5cbcf;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.badge, .badge-grey{
+    display: inline-block;
+    font-size: 12px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
