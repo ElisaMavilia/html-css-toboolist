@@ -47,7 +47,7 @@ nav {
     height: 30px;
     background-color: #46adf2;
     color: white;
-    margin-left: 10px;
+    margin-left: 40px;
     margin-top: 15px;
     margin-bottom: 15px;
 }
@@ -70,4 +70,25 @@ nav {
     border-radius: 5px;
 }
 
+main{
+    margin-left: 35x;
+    padding-left: 40px;
+    padding-top: 25px;
+}
 
+.bullet-green{
+    
+    padding-left: 40px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 100px;
+
+}
+
+.list{
+    list-style: none;
+}
