@@ -76,25 +76,33 @@ main{
     padding-top: 25px;
 }
 
-.bullet-green{
+.bullet-green, .bullet-red{
     
     display: inline-block;    
     width: 20px;
     height: 20px;
     border-radius: 50%;
     background-color: white;
-    border: 1px solid green;
     text-align: center;
     line-height: 100px;
     vertical-align: middle;
 }
+
+.bullet-green{
+    border: 1px solid green;
+}
+
+.bullet-red{
+    border: 1px solid red;
+}
+
 
 .list{
     list-style: none;
 }
 
 .badge-list, .badge-blue{
-    width: 8orage0px;
+    width: 80px;
     height: 20px;
     color: white;
     margin-left: 10px;
@@ -115,4 +123,8 @@ main{
 
 .badge-green{
     background-color: green;
+}
+
+.badge-orange{
+    background-color: orange;
 }
